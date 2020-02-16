@@ -1,19 +1,19 @@
 @charset "utf-8";
 
-/*============================== 
+/*==============================
 	- Template Name: MARRY - Responsive HTML Wedding Template
 	- Author: DoubleEight
 	- Version: 1.0.0
 	- Website: themeforest.net/user/doubleeight/portfolio
-================================= */	
+================================= */
 
-/*---------------------- 
+/*----------------------
 	Stylesheet Guide
 ------------------------
 00. PRELOADER
 
 01. GENERAL
-			
+
 02. NAV BAR
 	02.1 Width & Color
 		02.1.1 Fixed Width
@@ -25,7 +25,7 @@
 		02.2.1 Nav Center
 		02.2.2 Nav Left
 		02.2.3 Nav Right
-		
+
 03. NAV MENU
 	03.1 Parent Menu
 		03.1.1 Transparent
@@ -35,10 +35,10 @@
 		03.2.2 Child-Parent Arrow
 		03.2.3 More Child
 	03.3 Mobile Nav
-		
+
 05. LOGO
 	05.1 Default (Nav) Logo
-	05.2 Wedding Logo 
+	05.2 Wedding Logo
 	05.3 IMG Logo
 
 06. MAIN-SLIDER
@@ -47,12 +47,12 @@
 		06.2.1 Main Slider Flexslider Control Nav & Paging
 	06.3 Main Slider Slide Image and Video
 	06.4 Main Slider Title
-		06.4.1 Outter Wrapper 
+		06.4.1 Outter Wrapper
 		06.4.2 Inner Wrapper
 		06.4.3 Title Wrapper
 		06.4.4 Title Alignment
 		06.4.5 Couple Name Title
-		06.4.6 Default Page Title		
+		06.4.6 Default Page Title
 	06.5 Each Slide Overlay
 	06.6 Each Slide Caption
 	06.7 Hack Flexslider Fade for Firefox & IE11
@@ -61,11 +61,11 @@
 		06.8.2 Left-Right
 	06.9 Video Audio Control
 	06.10 Slide Arrow
-		
+
 07. PAGE
 	07.1 Page Element
 		07.1.1 Title-Excerpt White Box
-		07.1.2 Align Middle Wrapper	
+		07.1.2 Align Middle Wrapper
 		07.1.3 Image & Video Divider
 		07.1.4 Space & Line Divider
 		07.1.5 Popup Template
@@ -81,36 +81,36 @@
 08. ICON
 	08.1 Size
 	08.2 Shape / Color
-		08.2.1 Default	
+		08.2.1 Default
 		08.2.2 Light-1
 		08.2.3 Light-2
 		08.2.4 Circle, Rounded, Square
-	08.3 Effect Zoom 
+	08.3 Effect Zoom
 	08.4 Effect Rotate
-	08.5 Effect Square/Rounded To Circle	
-	
+	08.5 Effect Square/Rounded To Circle
+
 09. BUTTON
 	09.1 Color
 		09.1.1 Default
 		09.1.2 Outline Dark
-		09.1.3 Light-1	
+		09.1.3 Light-1
 		09.1.4 Light-2
 	09.2 Size
-	09.3 Rounded	
-			
+	09.3 Rounded
+
 10. PHOTO ITEM
 	10.1 Image
 	10.2 Layer
 		10.2.1 Layer : Second Image
-		10.2.2 Layer : Black Overlay 
+		10.2.2 Layer : Black Overlay
 		10.2.3 Layer : Photo Caption
-		10.2.4 Layer : Icon / Button Link  
+		10.2.4 Layer : Icon / Button Link
 	10.3 on Hover Animation
 		10.3.1 on Hover Animation Duration
-		10.3.2 on Hover Animation Delay	
-		10.3.3 on Hover Zoom In	
+		10.3.2 on Hover Animation Delay
+		10.3.3 on Hover Zoom In
 		10.3.4 on Hover Zoom In and Rotate
-		10.3.5 on Hover Fade Out		
+		10.3.5 on Hover Fade Out
 
 11. MASONRY GALLERY
 	11.1 Three Column No Gutter
@@ -118,8 +118,8 @@
 	11.3 Four Column No Gutter
 	11.4 Four Column With Gutter
 	11.5 Five Column No Gutter
-	11.6 Five Column With Gutter	
-	
+	11.6 Five Column With Gutter
+
 12. FORM
 	12.1 Form Group
 	12.2 Form Control
@@ -129,16 +129,16 @@
 	12.6 Checkbox and Radio(Custom)
 	12.7 Select Option
 	12.8 Message
-	12.9 Validation	
-		
+	12.9 Validation
+
 13. HOME PAGE
 	13.1 Couple Section
 	13.2 Adventure Begin
 	13.3 The Wedding Section
 	13.4 Footer Section
-	
+
 14. HOME PAGE 2
-	
+
 15. OTHER PAGES
 	15.1 About / Story Page
 	15.2 Our Story
@@ -154,7 +154,7 @@
 	16.3 Counting Section
 	16.4 Attending Section
 	16.5 Gift Registry Section
-	
+
 17. OTHER SECTIONS
 	17.1 Event Carousel
 
@@ -169,7 +169,7 @@
 	- @media screen and (max-width: 768px)
 	- @media screen and (max-width: 480px)
 	- @media screen and (max-width: 320px)
-	
+
 */
 
 
@@ -202,14 +202,14 @@ h1,h2,h3,h4,h5,h6,
 	font-weight:700;
 }
 
-h1, h2, h3, h4, h5, h6, 
+h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
 .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a{
 	color:#4a4a4a;
 }
 
-h1 a:hover, h2 a:hover, h3 a:hover, 
+h1 a:hover, h2 a:hover, h3 a:hover,
 h4 a:hover, h5 a:hover, h6 a:hover{
 	color:#f98d8a;
 }
@@ -260,7 +260,7 @@ h6, .h6{
 h1.inline, h2.inline, h3.inline,
 h4.inline, h5.inline, h6.inline{
 	display:inline;
-	vertical-align:middle; 
+	vertical-align:middle;
 }
 
 p{
@@ -338,8 +338,8 @@ img.rounded{
 /* 02. NAV BAR  	 							 */
 /*===============================================*/
 #nav-header{
-	position:relative;	
-	z-index:1000; 
+	position:relative;
+	z-index:1000;
 }
 
 #nav-bar{
@@ -363,7 +363,7 @@ img.rounded{
 	position:relative;
 	height:inherit;
 	width:1170px;
-	margin:0 auto;	
+	margin:0 auto;
 	padding:0 30px;
 }
 
@@ -381,14 +381,14 @@ img.rounded{
 #nav-bar.top-bar{
 	position:absolute;
 	/*background-color:transparent;*/
-	margin:auto; 
-	left:0; 
+	margin:auto;
+	left:0;
 	right:0;
 }
 
 #nav-bar.top-bar.stick-it{
 	position:fixed;
-	height:90px; 
+	height:90px;
 	width:100%;
 	background-color:#FFF;
 	z-index:1500;
@@ -410,25 +410,25 @@ img.rounded{
 
 #nav-bar.bottom-bar.stick-it{
 	position:fixed;
-	height:90px; 
+	height:90px;
 	width:100%;
 	background-color:#FFF;
 	z-index:1500;
 	top:0;
 	bottom:auto;
 	/*-webkit-transform: translateZ(0)*/
-	
+
 }
 
 /* 02.1.5 Transparent & Block Color 			 */
 /* ----------------------------------------------*/
 #nav-bar.transparent{
-	/*position:relative;*/ 
+	/*position:relative;*/
 	background-color:transparent;
 }
 
 #nav-bar.block-color{
-	/*position:relative; */ 
+	/*position:relative; */
 	background-color:#FFF;
 }
 
@@ -441,15 +441,15 @@ img.rounded{
 /* ----------------------------------------------*/
 
 .logo-wrapper{
-	position:relative; 
-	width:60px; 
+	position:relative;
+	width:60px;
 	height:60px;
 	margin-top:15px;
 }
 
-#nav-menu{	
-	list-style-type:none; 
-	margin:0; 
+#nav-menu{
+	list-style-type:none;
+	margin:0;
 	padding:25px 0 0 0;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
@@ -461,10 +461,10 @@ img.rounded{
 /* 02.2.1 Nav Center 							 */
 /* ----------------------------------------------*/
 #nav-bar.nav-center .logo-wrapper{
-	position:absolute; 
-	margin:auto; 
-	top:0; 
-	left:0; 
+	position:absolute;
+	margin:auto;
+	top:0;
+	left:0;
 	right:0;
 	bottom:0;
 }
@@ -474,7 +474,7 @@ img.rounded{
 }
 
 #nav-bar.nav-center #nav-menu{
-	text-align:center; 
+	text-align:center;
 }
 
 /* 02.2.2 Nav Left 								 */
@@ -511,7 +511,7 @@ img.rounded{
 /* ----------------------------------------------*/
 #nav-menu > li{
 	position:relative;
-	display:inline;	
+	display:inline;
 }
 
 /*#nav-menu > li:before{
@@ -538,7 +538,7 @@ img.rounded{
 	display:inline-block;
 	padding:6px 11px;
 	margin:0 8px;
-	border:solid transparent 1px;	
+	border:solid transparent 1px;
 	border-radius:5px;
 }
 
@@ -595,7 +595,7 @@ img.rounded{
 #nav-menu ul{
 	position:absolute;
 	display:none;
-	width:250px;	
+	width:250px;
 	left:8px;
 	list-style-type:none;
 	padding:30px 0 0 0;
@@ -622,19 +622,19 @@ img.rounded{
 	border-bottom:none;
 	padding:18px 20px;
 	background-color:#FFF;
-}   
+}
 
 #nav-menu ul li:first-child a{
 	border-radius:3px 3px 0 0;
-} 
+}
 
 #nav-menu ul li:last-child a{
 	border-radius:0 0 3px 3px;
-}   
-  
+}
+
 
 #nav-menu ul li a:hover,
-#nav-menu ul li a.active{	
+#nav-menu ul li a.active{
 	color:#f98d8a;
 }
 
@@ -659,14 +659,14 @@ img.rounded{
 
 /* 03.2.2 Child-Parent Arrow 					 */
 /* ----------------------------------------------*/
-#nav-menu li > ul li a:after { 
-	content: '>'; 
+#nav-menu li > ul li a:after {
+	content: '>';
 	position:absolute;
 	right:15px;
-} 
+}
 
-#nav-menu li > ul li a:only-child:after { 
-	content: ''; 
+#nav-menu li > ul li a:only-child:after {
+	content: '';
 }
 
 /* 03.2.3 More Child 						  	 */
@@ -726,10 +726,10 @@ img.rounded{
 /* ----------------------------------------------*/
 /* 05.1 Default (Nav) Logo						 */
 /* ----------------------------------------------*/
-.nav-logo{	
+.nav-logo{
 	font-family: 'Montserrat', sans-serif;
-	font-size:22px; 
-	letter-spacing:2px; 
+	font-size:22px;
+	letter-spacing:2px;
 	font-weight:700;
 	color:#666;
 	text-align:center;
@@ -767,19 +767,19 @@ img.rounded{
 /* 05.2	Wedding Logo							 */
 /* ----------------------------------------------*/
 .logo-scale-wrapper{
-	-ms-transform: scale(0.9, 0.9); 
+	-ms-transform: scale(0.9, 0.9);
 	-webkit-transform: scale(0.9, 0.9);
-	 transform: scale(0.9, 0.9);	 
+	 transform: scale(0.9, 0.9);
 	 -ms-transform-origin: left top;
 	 -webkit-transform-origin: left top;
 	 transform-origin: left top;
 }
 
 .wedding-logo{
-	position:relative; 
-	width:70px; 
-	height:70px; 
-	margin:0 auto; 
+	position:relative;
+	width:70px;
+	height:70px;
+	margin:0 auto;
 	margin-bottom:30px;
 }
 
@@ -792,26 +792,26 @@ img.rounded{
 }
 
 .line-1{
-	position:absolute; 
-	width:77px; 
-	height:5px; 
-	top:30px; 
-	left:-3px; 
-	border-bottom:2px solid #FFF; 
-	-ms-transform: rotate(45deg); 
+	position:absolute;
+	width:77px;
+	height:5px;
+	top:30px;
+	left:-3px;
+	border-bottom:2px solid #FFF;
+	-ms-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 
 .line-2{
-	position:absolute; 
-	width:77px; 
-	height:5px; 
-	top:30px; 
-	right:-2px; 
-	border-bottom:2px solid #FFF; 
-	-ms-transform: rotate(-45deg); 
-	-webkit-transform: rotate(-45deg); 
+	position:absolute;
+	width:77px;
+	height:5px;
+	top:30px;
+	right:-2px;
+	border-bottom:2px solid #FFF;
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
 
@@ -819,43 +819,43 @@ img.rounded{
 .transparent.stick-it .line-2,
 .block-color .line-1,
 .block-color .line-2{
-	border-color:#666; 
+	border-color:#666;
 }
 
 .his-initial{
-	position:absolute; 
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 
-	font-size:18px; 
+	position:absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	font-size:18px;
 	top:20px;
 }
 
 .her-initial{
-	position:absolute; 
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 
-	font-size:18px; 
-	top:20px; 
+	position:absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	font-size:18px;
+	top:20px;
 	right:0;
 }
 
 .top-heart{
-	position:absolute; 
-	font-family: 'fontello', sans-serif; 
-	font-weight:700; 
-	font-size:11px; 
-	top:2px; 
-	left:26px; 
+	position:absolute;
+	font-family: 'fontello', sans-serif;
+	font-weight:700;
+	font-size:11px;
+	top:2px;
+	left:26px;
 	color:#f98d8a;
 }
 
 .bottom-heart{
 	position:absolute;
-	font-family: 'fontello', sans-serif; 
-	font-weight:700; 
-	font-size:11px; 
-	bottom:2px; 
-	left:26px; 
+	font-family: 'fontello', sans-serif;
+	font-weight:700;
+	font-size:11px;
+	bottom:2px;
+	left:26px;
 	color:#f98d8a;
 }
 
@@ -871,7 +871,7 @@ img.rounded{
 /* 06. MAIN-SLIDER					 		 	 */
 /*===============================================*/
 #main-slider {
-	margin:0; 
+	margin:0;
 	padding:0;
 	position:relative;
 	overflow:hidden;
@@ -890,8 +890,8 @@ img.rounded{
 /* ----------------------------------------------*/
 /* 06.2 Main Slider Flexslider			  		 */
 /* ----------------------------------------------*/
-#main-slider.flexslider { 
-	border: none; 
+#main-slider.flexslider {
+	border: none;
 }
 
 #main-slider .slides,
@@ -921,13 +921,13 @@ img.rounded{
 	 width:28px;
 	 z-index:4;
 	 height:auto;
-	 
+
 }
 
 #main-slider .flex-control-nav li{
 	display:block;
 	margin:7px 0;
-	
+
 }
 
 #main-slider .flex-control-nav li a{
@@ -965,19 +965,19 @@ img.rounded{
 	position:relative;
 	height:inherit;
 	width:100%;
-	background-size:cover; 
+	background-size:cover;
 	background-position:50% 50%;
 	background-color:#FFF;
 	-webkit-transform: translateZ(0);
 }
 
 #main-slider .slide-image video{
-	position:absolute; 
-	margin:auto; 
-	top:0; 
+	position:absolute;
+	margin:auto;
+	top:0;
 	left:0;
 }
-	
+
 #main-slider .video-button-wrapper{
 	margin-top:0px;
 }
@@ -991,11 +991,11 @@ img.rounded{
 /* 06.4.1 Outter Wrapper */
 /* ----------------------------------------------*/
 .slide-title-outter-wrapper{
-	position:absolute; 
-	width:100%; 
+	position:absolute;
+	width:100%;
 	/*height:inherit;*/
-	height:100%; 
-	left:0; 
+	height:100%;
+	left:0;
 	z-index:3;
 	overflow:hidden;
 }
@@ -1003,17 +1003,17 @@ img.rounded{
 /* 06.4.2 Inner Wrapper */
 /* ----------------------------------------------*/
 .slide-title-inner-wrapper{
-	width:1170px; 
-	height:inherit; 
-	margin:0 auto; 
+	width:1170px;
+	height:inherit;
+	margin:0 auto;
 	display: table;
 }
 
 /* 06.4.3 Title Wrapper */
 /* ----------------------------------------------*/
-.slide-title{ 
+.slide-title{
 	display: table-cell;
-	text-align:center;	
+	text-align:center;
     color:#FFF;
 }
 
@@ -1048,45 +1048,45 @@ img.rounded{
 }
 
 #slide-his-name{
-	position:relative; 
-	font-family: 'Great Vibes', cursive; 
+	position:relative;
+	font-family: 'Alex Brush', cursive;
 	font-size:115px;
 }
 
 #slide-and-text{
-	position:relative; 
-	font-family: 'Great Vibes', cursive; 
-	font-size:54px; 
+	position:relative;
+	font-family: 'Alex Brush', cursive;
+	font-size:54px;
 	margin-top:30px;
 }
 
 #curve-graphic{
-	position:absolute; 
-	margin:auto; 
-	top:2px;	 
-	left:35px; 
+	position:absolute;
+	margin:auto;
+	top:2px;
+	left:35px;
 	right:0
 }
 
 #and-text{
-	position:absolute; 
-	top:10px; 
-	margin:auto; 
-	left:35px; 
+	position:absolute;
+	top:10px;
+	margin:auto;
+	left:35px;
 	right:0
 }
 
 #slide-her-name{
-	position:relative; 
-	font-family: 'Great Vibes', cursive; 
-	font-size:115px; 
+	position:relative;
+	font-family: 'Alex Brush', cursive;
+	font-size:115px;
 	margin-top:130px;
 }
 
 #slide-other-text{
-	font-family: 'Montserrat', sans-serif; 
-	font-size:14px; 
-	letter-spacing:6px; 
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	letter-spacing:6px;
 	margin-top:100px;
 }
 
@@ -1103,10 +1103,10 @@ img.rounded{
 .slide-overlay{
 	position:absolute;
 	top:0;
-	display:block; 
-	width:inherit; 
-	height:inherit; 
-	background-color:#000; 
+	display:block;
+	width:inherit;
+	height:inherit;
+	background-color:#000;
 	opacity:0.3;
 	-webkit-transform: translateZ(0);
 }
@@ -1118,9 +1118,9 @@ img.rounded{
 	position:absolute;
 	top:0;
 	display:block;
-	width:inherit; 
-	height:inherit; 
-	color:#fff;	
+	width:inherit;
+	height:inherit;
+	color:#fff;
 }
 
 .use-animation{
@@ -1130,10 +1130,10 @@ img.rounded{
 /* ----------------------------------------------*/
 /* 06.7 Hack Flexslider Fade for Firefox & IE11	 */
 /* ----------------------------------------------*/
-.flexslider .slides.css-fade > li { 
-  	-webkit-transition: opacity 1s ease; 
+.flexslider .slides.css-fade > li {
+  	-webkit-transition: opacity 1s ease;
 	-moz-transition: opacity 1s ease;
- 	transition: opacity 1s ease; 
+ 	transition: opacity 1s ease;
 }
 
 /* ----------------------------------------------*/
@@ -1225,33 +1225,33 @@ img.rounded{
 	right:20px;
 	width:200px;
 	opacity:0;
-	-webkit-transition: all 0.5s; 
+	-webkit-transition: all 0.5s;
 		-ms-transition: all 0.5s;
 		 -o-transition: all 0.5s;
 			transition: all 0.5s;
-	-webkit-transform: scale(0); 
+	-webkit-transform: scale(0);
 		-ms-transform: scale(0);
-		 -o-transform: scale(0);  
-			transform: scale(0);			
-	 transform-origin: bottom right;	
+		 -o-transform: scale(0);
+			transform: scale(0);
+	 transform-origin: bottom right;
 }
 
 #soundcloud-track.open-window{
 	opacity:1;
-	-webkit-transform: scale(1); 
+	-webkit-transform: scale(1);
 		-ms-transform: scale(1);
-		 -o-transform: scale(1);  
-			transform: scale(1);		
+		 -o-transform: scale(1);
+			transform: scale(1);
 }
 
 /* ----------------------------------------------*/
 /* 06.10 Slide Arrow							 */
 /* ----------------------------------------------*/
 #slide-arrow{
-	position:absolute; 
-	left:0; 
-	right:0; 
-	bottom:50px; 
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:50px;
 	margin:auto;
 	z-index:2000;
 	text-align:center;
@@ -1264,17 +1264,17 @@ img.rounded{
 }
 
 @-webkit-keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+ 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
  40% {-webkit-transform: translateY(-15px);}
  60% {-webkit-transform: translateY(-7px);}
 }
- 
+
 @-moz-keyframes bounce {
  0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
  40% {-moz-transform: translateY(-15px);}
  60% {-moz-transform: translateY(-7px);}
 }
- 
+
 @-o-keyframes bounce {
  0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
  40% {-o-transform: translateY(-15px);}
@@ -1305,7 +1305,7 @@ img.rounded{
 /* ----------------------------------------------*/
 .title-excerpt{
 	position:relative;
-	background-color:#FFF; 
+	background-color:#FFF;
 	padding:25px;
 }
 
@@ -1319,7 +1319,7 @@ img.rounded{
 }
 
 .v-align{
-	display:table-cell;	
+	display:table-cell;
 }
 
 .center-middle{
@@ -1360,9 +1360,9 @@ img.rounded{
 }
 
 .image-divider video{
-	position:absolute; 
-	margin:auto; 
-	top:0; 
+	position:absolute;
+	margin:auto;
+	top:0;
 	left:0;
 }
 
@@ -1379,12 +1379,12 @@ img.rounded{
 }
 
 .image-divider .divider-overlay{
-	position:absolute; 
-	top:0; 
-	display:block; 
-	width:100%; 
-	height:100%; 
-	background-color:#000; 
+	position:absolute;
+	top:0;
+	display:block;
+	width:100%;
+	height:100%;
+	background-color:#000;
 	opacity:0.3
 }
 
@@ -1411,7 +1411,7 @@ hr.line-divider{
 	height:2px;
 	border:none;
 	color:#e1dddd;
-	background-color:#e1dddd; 
+	background-color:#e1dddd;
 	margin:50px 0
 }
 
@@ -1431,9 +1431,9 @@ hr.line-divider{
 }
 
 #popup-template-title-wrapper{
-	position:absolute; 
-	bottom:40px; 
-	color:#FFF; 
+	position:absolute;
+	bottom:40px;
+	color:#FFF;
 	text-align:center;
 	padding:0 40px;
 	margin:0 auto;
@@ -1465,21 +1465,21 @@ hr.line-divider{
 /* 07.1.7 Popup Video							 */
 /*-----------------------------------------------*/
 .popup-video-wrapper{
-	position:fixed; 
-	z-index:2001; 
-	top:0; 
-	bottom:0; 
-	right:0; 
-	left:0; 
+	position:fixed;
+	z-index:2001;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
 	background-color:rgba(0, 0, 0, 0.7);
 	display:none;
 }
 
 .popup-video{
-	position:absolute; 
-	top:0; 
-	bottom:0; 
-	right:0; 
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
 	left:0;
 	width:50%;
 	margin:auto;
@@ -1491,22 +1491,22 @@ hr.line-divider{
 /* 07.1.8 Map									 */
 /*-----------------------------------------------*/
 .popup-map-wrapper{
-	position:fixed; 
-	z-index:2001; 
-	display:block; 
-	top:0; 
-	bottom:0; 
-	right:0; 
-	left:0; 
+	position:fixed;
+	z-index:2001;
+	display:block;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
 	background-color:rgba(0, 0, 0, 0.7);
 	display:none;
 }
 
 .popup-map{
-	position:absolute; 
-	top:0; 
-	bottom:0; 
-	right:0; 
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
 	left:0;
 	width:70%;
 	height:80%;
@@ -1514,42 +1514,42 @@ hr.line-divider{
 }
 
 #map-canvas-1{
-	height:600px; 
-	width:100%; 
+	height:600px;
+	width:100%;
 }
 
 #map-canvas-2{
-	height:450px; 
-	width:100%; 
+	height:450px;
+	width:100%;
 }
 
 #map-canvas-3{
-	height:600px; 
-	width:100%; 
+	height:600px;
+	width:100%;
 }
 
 #map-canvas-4{
-	height:650px; 
-	width:100%; 
+	height:650px;
+	width:100%;
 }
 
 #popup-map-canvas{
-	width:100%; 
+	width:100%;
 	height:100%;
 }
 
 .main-icon-wrapper{
-	height:175px; 
-	width:175px; 
+	height:175px;
+	width:175px;
 	position:relative;
 }
 
 .big-circle{
 	position:relative;
-	height:175px; 
-	width:175px; 
-	border-radius:50%; 
-	background-color: rgba(249, 141, 138, 0.8); 	
+	height:175px;
+	width:175px;
+	border-radius:50%;
+	background-color: rgba(249, 141, 138, 0.8);
 }
 
 .main-icon-text{
@@ -1581,15 +1581,15 @@ hr.line-divider{
 }
 
 @-webkit-keyframes scale-animation {
- 0%{-webkit-transform: scale(1, 1);} 
+ 0%{-webkit-transform: scale(1, 1);}
  50% {-webkit-transform: scale(0.85, 0.85);}
 }
- 
+
 @-moz-keyframes scale-animation {
  0% {-moz-transform: scale(1, 1);}
  50% {-moz-transform: scale(0.85, 0.85);}
 }
- 
+
 @-o-keyframes scale-animation {
  0%{-o-transform: scale(1, 1);}
  50% {-o-transform: scale(0.85, 0.85);}
@@ -1610,8 +1610,8 @@ hr.line-divider{
 /* 07.1.9 Box Countdown							 */
 /*-----------------------------------------------*/
 .box-countdown{
-	width:100%; 
-	margin:0 auto; 
+	width:100%;
+	margin:0 auto;
 	margin-bottom:30px;
 	height:140px;
 }
@@ -1623,7 +1623,7 @@ hr.line-divider{
 
 .box-countdown.is-countdown {
 	background-color:transparent;
-	border:none;	
+	border:none;
 	color:#666;
 }
 
@@ -1632,7 +1632,7 @@ hr.line-divider{
 }
 
 .box-countdown .countdown-amount {
-	font-family: 'Montserrat', sans-serif;	
+	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	font-size:36px;
 	background-color:#FFF;
@@ -1640,14 +1640,14 @@ hr.line-divider{
 	height:100%;
 	display:block;
 	padding-top:40px;
-	margin:0 auto;	
+	margin:0 auto;
 }
 
 .box-countdown .countdown-period {
 	position:absolute;
 	font-family: 'Raleway', sans-serif;
 	text-align:center;
-	font-size:16px;  
+	font-size:16px;
 	top:80px;
 	left:0;
 	right:0;
@@ -1660,8 +1660,8 @@ hr.line-divider{
 /*-----------------------------------------------*/
 
 .circle-countdown{
-	width:100%; 
-	margin:0 auto; 
+	width:100%;
+	margin:0 auto;
 	margin-top:5px;
 	height:140px;
 	margin-bottom:20px;
@@ -1690,7 +1690,7 @@ hr.line-divider{
 	display:block;
 	text-align:center;
 	font-size:14px;
-	text-transform:uppercase;    
+	text-transform:uppercase;
 }
 
 
@@ -1717,19 +1717,19 @@ hr.line-divider{
 /* 07.1.12 Divider Quote						*/
 /*-----------------------------------------------*/
 .quote-top{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Alex Brush', cursive;
 	font-size:78px;
 }
 
 .quote-middle{
-	font-family: 'Great Vibes', cursive; 
-	font-size:114px; 
-	margin-top:50px; 
+	font-family: 'Alex Brush', cursive;
+	font-size:114px;
+	margin-top:50px;
 	margin-left:-12px
 }
 
 .quote-bottom{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Alex Brush', cursive;
 	font-size:78px;
 	margin-top:50px;
 }
@@ -1738,12 +1738,12 @@ hr.line-divider{
 /* 07.1.13 Loader Animation					 	 */
 /*-----------------------------------------------*/
 .loader {
-  position:absolute; 
-  left:0; 
-  right:0; 
-  top:0; 
-  bottom:0; 
-  margin: auto; 
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin: auto;
   width:100px;
   height:100px;
 }
@@ -1753,12 +1753,12 @@ hr.line-divider{
 	width:100px;
 	height:100px;
 	float:left;
-	
+
 	-webkit-animation-name: rotateThis;
 	-webkit-animation-duration:1s;
 	-webkit-animation-iteration-count:infinite;
 	-webkit-animation-timing-function:linear;
-	
+
 	-moz-transform:scale(0.3);
 	-o-transform:scale(0.3);
 }
@@ -1771,12 +1771,12 @@ hr.line-divider{
 	position:absolute;
 	top:35px;
 	left:45px;
-	
+
 	border-radius: 50px;
 	-moz-border-radius-bottomleft:50px;
 	-moz-border-radius-bottomright:50px;
 	-moz-border-radius-topleft:50px;
-	-moz-border-radius-topright:50px;	
+	-moz-border-radius-topright:50px;
 }
 
 @-webkit-keyframes rotateThis {
@@ -1846,9 +1846,9 @@ hr.line-divider{
 	line-height: 60px;
 	font-size:35px;*/
 	text-align: center;
-	vertical-align: middle;	
+	vertical-align: middle;
 	margin:8px 0px;
-	
+
 	-webkit-transition: 0.3s all ease;
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
@@ -1868,7 +1868,7 @@ hr.line-divider{
 }
 
 /*.de-icon.float{
-	float:left; 
+	float:left;
 	margin-right:15px
 }*/
 
@@ -1886,7 +1886,7 @@ hr.line-divider{
 /*------------------------------------------------*/
 .de-icon.large-size{
 	font-size:30px;
-	margin:15px 0;	
+	margin:15px 0;
 }
 
 .de-icon.large-size.circle,
@@ -1894,13 +1894,13 @@ hr.line-divider{
 .de-icon.large-size.rounded{
 	width: 75px;
 	height: 75px;
-	line-height: 75px;	
+	line-height: 75px;
 }
 
 .de-icon.medium-size{
 	/*font-size:24px;*/
 	font-size:22px;
-	margin:10px 0;	
+	margin:10px 0;
 }
 
 .de-icon.medium-size.circle,
@@ -1914,7 +1914,7 @@ hr.line-divider{
 .de-icon.small-size{
 	/*font-size:18px;	*/
 	font-size:16px;
-	margin:5px 0;	
+	margin:5px 0;
 }
 
 .de-icon.small-size.circle,
@@ -1922,11 +1922,11 @@ hr.line-divider{
 .de-icon.small-size.rounded{
 	width: 40px;
 	height: 40px;
-	line-height: 40px;	
+	line-height: 40px;
 }
 
 /*.de-icon.very-small-size{
-	font-size:11px;	
+	font-size:11px;
 }
 
 .de-icon.very-small-size.circle,
@@ -1971,7 +1971,7 @@ a:hover .de-icon{
 
 a:hover .de-icon.square, a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.outline{
 	color:#FFF;
-	background-color:#fa9996;	
+	background-color:#fa9996;
 }
 
 
@@ -2051,7 +2051,7 @@ a:hover .de-icon.light-2.square, a:hover .de-icon.light-2.circle, a:hover .de-ic
 	   -moz-transform: scale(1);
 	     -o-transform: scale(1);
 	    -ms-transform: scale(1);
-	        transform: scale(1);	
+	        transform: scale(1);
 }
 
 a:hover .de-icon.effect-1{
@@ -2059,7 +2059,7 @@ a:hover .de-icon.effect-1{
 	   -moz-transform: scale(1.2);
 	     -o-transform: scale(1.2);
 	    -ms-transform: scale(1.2);
-	        transform: scale(1.2);	
+	        transform: scale(1.2);
 }
 
 /*------------------------------------------------*/
@@ -2071,7 +2071,7 @@ a:hover .de-icon.effect-1{
 	   -moz-transform: rotate(0deg);
 	     -o-transform: rotate(0deg);
 	    -ms-transform: rotate(0deg);
-	        transform: rotate(0deg);	
+	        transform: rotate(0deg);
 }
 
 a:hover .de-icon.effect-2 i{
@@ -2079,7 +2079,7 @@ a:hover .de-icon.effect-2 i{
 	   -moz-transform: rotate(360deg);
 	     -o-transform: rotate(360deg);
 	    -ms-transform: rotate(360deg);
-	        transform: rotate(360deg);	
+	        transform: rotate(360deg);
 }
 
 /*------------------------------------------------*/
@@ -2102,10 +2102,10 @@ a:hover .de-icon.effect-3{
 /* ----------------------------------------------*/
 
 a.de-button, span.de-button, input[type=submit]{
-	display:inline-block; 	
-	margin:0 auto; 
+	display:inline-block;
+	margin:0 auto;
 	margin-top:20px;
-	margin-right:10px; 
+	margin-right:10px;
 	background-color:#f98d8a;
 	color:#FFF;
 	font-family: 'Montserrat', sans-serif;
@@ -2115,12 +2115,12 @@ a.de-button, span.de-button, input[type=submit]{
 }
 
 a.de-button.outline, span.de-button.outline, input[type=submit].outline{
-	background-color:transparent; 
+	background-color:transparent;
 	border:solid 1px #f98d8a;
 	color:#f98d8a;
 }
 
-a.de-button:hover, input[type=submit]:hover{	
+a.de-button:hover, input[type=submit]:hover{
 	background-color:#fa9996;
 	border-color: #fa9996;
 	color:#FFF;
@@ -2130,7 +2130,7 @@ a.de-button:hover, input[type=submit]:hover{
 /* 09.1.2 Outline Dark	 					 	 */
 /* ---------------------------------------------- */
 a.de-button.outline.dark-1, span.de-button.outline.dark-1, input[type=submit].outline.dark-1{
-	background-color:transparent; 
+	background-color:transparent;
 	border:solid 1px #666;
 	color:#666;
 }
@@ -2145,14 +2145,14 @@ a.de-button.outline.dark-1:hover, span.de-button.outline.dark-1:hover, input[typ
 /* 09.1.3 Light-1		 					 	 */
 /* ----------------------------------------------*/
 
-a.de-button.light-1, span.de-button.light-1, input[type=submit].light-1{	
+a.de-button.light-1, span.de-button.light-1, input[type=submit].light-1{
 	background-color:#FFF;
 	color:#f98d8a;
 	border:solid 1px #FFF;
 }
 
 a.de-button.outline.light-1, span.de-button.outline.light-1, input[type=submit].outline.light-1{
-	background-color:transparent; 
+	background-color:transparent;
 	border:solid 1px #FFF;
 	color:#FFF;
 }
@@ -2166,14 +2166,14 @@ a.de-button.light-1:hover, input[type=submit].light-1:hover{
 
 /* 09.1.4 Light-2			 					 */
 /* ----------------------------------------------*/
-a.de-button.light-2, span.de-button.light-2, input[type=submit].light-2{	
+a.de-button.light-2, span.de-button.light-2, input[type=submit].light-2{
 	background-color:#FFF;
 	color:#666;
 	border:solid 1px #FFF;
 }
 
 a.de-button.outline.light-2, span.de-button.outline.light-2, input[type=submit].outline.light-2{
-	background-color:transparent; 
+	background-color:transparent;
 	border:solid 1px #FFF;
 	color:#FFF;
 }
@@ -2189,18 +2189,18 @@ a.de-button.light-2:hover, input[type=submit].light-2:hover{
 /* 09.2 Size			 					 	 */
 /* ----------------------------------------------*/
 a.de-button.small, span.de-button.small, input[type=submit].small{
-	padding:8px 34px; 
-	font-size:12px; 
+	padding:8px 34px;
+	font-size:12px;
 }
 
 a.de-button.medium, span.de-button.medium, input[type=submit].medium{
-	padding:12px 40px; 
-	font-size:12px; 
+	padding:12px 40px;
+	font-size:12px;
 }
 
 a.de-button.large, span.de-button.large, input[type=submit].large{
-	padding:15px 60px; 
-	font-size:12px; 
+	padding:15px 60px;
+	font-size:12px;
 }
 
 /* ----------------------------------------------*/
@@ -2208,7 +2208,7 @@ a.de-button.large, span.de-button.large, input[type=submit].large{
 /* ----------------------------------------------*/
 a.de-button.small.rounded, span.de-button.small.rounded, input[type=submit].small.rounded{
 	border-radius:2px
-} 
+}
 
 a.de-button.medium.rounded, span.de-button.medium.rounded, input[type=submit].medium.rounded{
 	border-radius:3px;
@@ -2228,7 +2228,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 }
 
 .photo-item.frame-border {
-	background-color:#FFF; 
+	background-color:#FFF;
 	border:8px solid #FFF;
 }
 
@@ -2243,10 +2243,10 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 /* 10.2 Layer 								 	 */
 /* ----------------------------------------------*/
 .photo-item .layer {
-	position: absolute; 
+	position: absolute;
 	margin: auto;
-	top: 0; 
-	right: 0; 
+	top: 0;
+	right: 0;
 	bottom: 0;
 	left: 0;
 	width:100%;
@@ -2255,19 +2255,19 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 
 .photo-item .layer.wh100{
 	width:100%;
-	height:100%; 
+	height:100%;
 }
 
 .photo-item .layer.wh95{
 	width:95%;
-	height:95%; 
+	height:95%;
 }
 
 
 /* 10.2.1 Layer : Second Image   				 */
 /* ----------------------------------------------*/
 .photo-item .layer.second-image{
-	opacity: 0; 
+	opacity: 0;
 }
 
 
@@ -2275,32 +2275,32 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 /* ----------------------------------------------*/
 .photo-item .layer.opacity-black-overlay{
 	background-color: rgba(0, 0, 0, 0.4);
-	opacity: 0.3; 
+	opacity: 0.3;
 }
 
 .photo-item .layer.hidden-black-overlay{
 	background-color: rgba(0, 0, 0, 0.4);
-	opacity: 0; 
+	opacity: 0;
 }
 
 /* 10.2.3 Layer : Photo Caption  				 */
 /* ----------------------------------------------*/
 .photo-item .layer.photo-caption{
-	opacity: 1; 
+	opacity: 1;
 }
 
 .photo-item .layer.hidden-photo-caption{
-	opacity: 0; 
+	opacity: 0;
 }
 
 .photo-item .layer.border-photo-caption{
 	opacity: 1;
-	border:1px solid #FFF; 
+	border:1px solid #FFF;
 }
 
 .photo-item .layer.hidden-border-photo-caption{
 	opacity: 0;
-	border:1px solid #FFF; 
+	border:1px solid #FFF;
 }
 
 /* 10.2.4 Layer : Icon / Button Link		 	 */
@@ -2314,34 +2314,34 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 }
 
 .photo-item:hover .layer.hover-animation.fade-in{
-	opacity: 1; 
+	opacity: 1;
 }
 
 .photo-item:hover .layer.hover-animation.half-fade-in{
-	opacity: 0.3; 
+	opacity: 0.3;
 }
 
 .photo-item:hover .layer.hover-animation.fade-out{
-	opacity: 0; 
+	opacity: 0;
 }
 
 /* ----------------------------------------------*/
 /* 10.3 on Hover Animation					 	*/
 /* ----------------------------------------------*/
 .photo-item img.hover-animation, .photo-item:hover img.hover-animation{
-	-webkit-transition: all 0.5s; 
+	-webkit-transition: all 0.5s;
 		-ms-transition: all 0.5s;
 		 -o-transition: all 0.5s;
 			transition: all 0.5s;
-	/*The transition will be disabled on script.js for tablet/mobile*/		
+	/*The transition will be disabled on script.js for tablet/mobile*/
 }
 
 .photo-item .layer.hover-animation, .photo-item:hover .layer.hover-animation {
-	-webkit-transition: all 0.5s; 
+	-webkit-transition: all 0.5s;
 		-ms-transition: all 0.5s;
 		 -o-transition: all 0.5s;
 			transition: all 0.5s;
-	/*The transition will be disabled on script.js for tablet/mobile*/	
+	/*The transition will be disabled on script.js for tablet/mobile*/
 }
 
 /* 10.3.1 on Hover Animation Duration		 	 */
@@ -2402,10 +2402,10 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 /* 10.3.3 on Hover Zoom In					 	 */
 /* ----------------------------------------------*/
 .photo-item:hover img.hover-animation.image-zoom-in {
-	-webkit-transform: scale(1.1); 
+	-webkit-transform: scale(1.1);
 		-ms-transform: scale(1.1);
-		 -o-transform: scale(1.1);  
-			transform: scale(1.1);		
+		 -o-transform: scale(1.1);
+			transform: scale(1.1);
 }
 
 /* 10.3.4 on Hover Zoom In and Rotate	 	 	*/
@@ -2413,8 +2413,8 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 .photo-item:hover img.hover-animation.image-zoom-rotate {
 	-webkit-transform: rotate(7deg) scale(1.1);
 		-ms-transform: rotate(7deg) scale(1.1);
-		 -o-transform: rotate(7deg) scale(1.1);  
-			transform: rotate(7deg) scale(1.1);			
+		 -o-transform: rotate(7deg) scale(1.1);
+			transform: rotate(7deg) scale(1.1);
 }
 
 /* 10.3.5 on Hover Fade Out				 		 */
@@ -2625,12 +2625,12 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 /* 12.4 Label									 */
 /*-----------------------------------------------*/
 form label{
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Montserrat', sans-serif;
 	font-size:14px;
 }
 
 .option-label{
-	font-family: 'Raleway', sans-serif;	
+	font-family: 'Raleway', sans-serif;
 	color:#6a6a6a;
 	font-size:14px;
 }
@@ -2638,12 +2638,12 @@ form label{
 /*-----------------------------------------------*/
 /* 12.5 Button									 */
 /*-----------------------------------------------*/
-form .btn-primary 
+form .btn-primary
 {
     padding: 12px 18px;
-    margin: 0 15px 5px 15px; 
+    margin: 0 15px 5px 15px;
     border-radius: 0;
-	font-family: 'Raleway', sans-serif;	
+	font-family: 'Raleway', sans-serif;
 	color:#6a6a6a;
 	font-size:14px;
   	background-color: #FFF;
@@ -2656,7 +2656,7 @@ form .btn-primary.focus,
 form .btn-primary:active,
 form .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-	background-color:#f98d8a; 
+	background-color:#f98d8a;
 	border-color:#f98d8a;
 	color:#FFF;
  	border-color: #cccccc;
@@ -2667,7 +2667,7 @@ form .btn-primary.active,
 /*-----------------------------------------------*/
 .ajax-checkbox .btn input[type=checkbox],
 .ajax-radio .btn input[type=radio]{
-	display:none;	
+	display:none;
 }
 
 .ajax-checkbox .btn.custom-option-icon, .ajax-checkbox .btn.no-icon,
@@ -2730,7 +2730,7 @@ option{
 }
 
 .message .bg-danger{
-	background-color:#f98d8a; 
+	background-color:#f98d8a;
 }
 
 .message .bg-success{
@@ -2766,9 +2766,9 @@ form .has-error .btn-primary{
 /* 13.1 Couple Section							 */
 /* ----------------------------------------------*/
 .photo-name{
-	font-family: 'Great Vibes', cursive; 
-	font-size:75px; 
-	color:#FFF; 
+	font-family: 'Alex Brush', cursive;
+	font-size:75px;
+	color:#FFF;
 }
 
 .photo-name.his-front-name{
@@ -2814,20 +2814,20 @@ footer .image-divider.fixed-height{
 }
 
 #thank{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Alex Brush', cursive;
 	font-size:85px;
 }
 
 #you{
-	font-family: 'Great Vibes', cursive; 
-	font-size:85px; 
-	margin-top:40px; 
-	margin-bottom:80px; 
+	font-family: 'Alex Brush', cursive;
+	font-size:85px;
+	margin-top:40px;
+	margin-bottom:80px;
 	margin-left:15px
 }
 
 #footer-couplename-wrapper{
-	-ms-transform: scale(0.7, 0.7); 
+	-ms-transform: scale(0.7, 0.7);
 	-webkit-transform: scale(0.7, 0.7);
 	 transform: scale(0.7, 0.7);
 	 margin-bottom:50px;
@@ -2838,8 +2838,8 @@ footer .image-divider.fixed-height{
 /* 14. HOME PAGE 2							 	*/
 /*===============================================*/
 .event-card{
-	background-color:#FFF; 
-	padding:60px 40px; 
+	background-color:#FFF;
+	padding:60px 40px;
 	text-align:center;
 	margin-bottom:30px;
 }
@@ -2870,8 +2870,8 @@ footer .image-divider.fixed-height{
 /* 15.2 Our Story				 			 	 */
 /* ----------------------------------------------*/
 .handwriting-title{
-	font-family: 'Great Vibes', cursive; 
-	font-size:54px; 
+	font-family: 'Alex Brush', cursive;
+	font-size:54px;
 	margin-bottom:30px
 }
 
@@ -2884,17 +2884,17 @@ footer .image-divider.fixed-height{
 }
 
 .places-card{
-	background-color:#FFF; 
-	width:100%; 
+	background-color:#FFF;
+	width:100%;
 	padding:45px 30px;
 	text-align:center;
 	margin-bottom:30px;
 }
 
 #arrow-up-mobile{
-	position:absolute; 
-	bottom:10px; 
-	left:10px; 
+	position:absolute;
+	bottom:10px;
+	left:10px;
 	z-index:2000;
 }
 
@@ -2914,9 +2914,9 @@ footer .image-divider.fixed-height{
 /* 15.4 Bridesmaid / Groomsmen	 			 	 */
 /* ----------------------------------------------*/
 .wedding-card{
-	width:100%; 
-	background-color:#FFF; 
-	text-align:center; 
+	width:100%;
+	background-color:#FFF;
+	text-align:center;
 	padding:40px;
 	margin-bottom:30px;
 }
@@ -2930,20 +2930,20 @@ footer .image-divider.fixed-height{
 
 .heart-icon-wrapper{
 	position:absolute;
-	width:27px; 
-	height:27px; 
-	bottom:-15px; 
-	left:0; 
-	right:0; 
+	width:27px;
+	height:27px;
+	bottom:-15px;
+	left:0;
+	right:0;
 	margin:auto
 }
 
 .heart-icon{
-	font-size:11px; 
-	width:100%; 
-	height:100%; 
-	background-color:#FFF; 
-	color:#f98d8a; 
+	font-size:11px;
+	width:100%;
+	height:100%;
+	background-color:#FFF;
+	color:#f98d8a;
 	border-radius:50%;
 }
 
@@ -2952,9 +2952,9 @@ footer .image-divider.fixed-height{
 }
 
 .card-name{
-	font-family: 'Great Vibes', cursive; 
-	font-size:42px; 
-	color:#c8c8c8; 
+	font-family: 'Alex Brush', cursive;
+	font-size:42px;
+	color:#c8c8c8;
 	margin-bottom:20px;
 }
 
@@ -2962,9 +2962,9 @@ footer .image-divider.fixed-height{
 /* 15.5 Gift Registry			 			 	 */
 /* ----------------------------------------------*/
 .gift-card{
-	width:100%; 
-	background-color:#FFF; 
-	text-align:center; 
+	width:100%;
+	background-color:#FFF;
+	text-align:center;
 	padding:50px 40px;
 	margin-bottom:30px;
 }
@@ -3014,9 +3014,9 @@ footer .image-divider.fixed-height{
 
 .story-date{
 	position:relative;
-	height:80px; 
-	width:80px; 
-	background-color:#f98d8a; 
+	height:80px;
+	width:80px;
+	background-color:#f98d8a;
 	border-radius:50%;
 	margin:0 auto;
 }
@@ -3036,18 +3036,18 @@ footer .image-divider.fixed-height{
 	font-size:20px;
 	line-height:20px;
 	font-weight:400;
-	color:#FFF; 
+	color:#FFF;
 }
 
 .vertical-line{
-	position:absolute; 
-	height:100%; 
-	width:1px; 
-	margin:auto; 
-	top:0; 
-	bottom:0; 
-	left:0; 
-	right:0; 
+	position:absolute;
+	height:100%;
+	width:1px;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
 	border-left:1px solid #cbcaca;
 }
 
@@ -3058,16 +3058,16 @@ footer .image-divider.fixed-height{
 
 #last-row-date-wrapper{
 	position:relative;
-	display:block; 	
-	padding-top:100px; 
-	padding-bottom:30px; 		
+	display:block;
+	padding-top:100px;
+	padding-bottom:30px;
 }
 
 /* ----------------------------------------------*/
 /* 16.2 Save the Date Section					 */
 /* ----------------------------------------------*/
 #save-date{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Alex Brush', cursive;
 	font-size:54px;
 }
 
@@ -3079,7 +3079,7 @@ footer .image-divider.fixed-height{
 }
 
 #counting{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Alex Brush', cursive;
 	font-size:78px;
 }
 
@@ -3091,7 +3091,7 @@ footer .image-divider.fixed-height{
 }
 
 #attending{
-	font-family: 'Great Vibes', cursive; 
+	font-family: 'Alex Brush', cursive;
 	font-size:78px;
 }
 
@@ -3119,7 +3119,7 @@ footer .image-divider.fixed-height{
 /*===============================================*/
 /* 18. PLUGIN CUSTOM							 */
 /*===============================================*/
- 
+
 /* -------------------------------------------*/
 /* 18.1 Owl Carousel 						  */
 /* -------------------------------------------*/
@@ -3159,9 +3159,9 @@ footer .image-divider.fixed-height{
 .mfp-content {
   	z-index: 2003;
 }
-  
+
 .mfp-preloader {
-  	z-index: 2002; 
+  	z-index: 2002;
 }
 
 button.mfp-close, button.mfp-arrow {
@@ -3178,7 +3178,7 @@ button.mfp-close, button.mfp-arrow {
 /* 06.10 Slide Arrow							 */
 /* ----------------------------------------------*/
 #slide-arrow{
-	bottom:70px; 
+	bottom:70px;
 }
 }
 
@@ -3209,12 +3209,12 @@ button.mfp-close, button.mfp-arrow {
 /* 06.4.2 Inner Wrapper 						 */
 /* ----------------------------------------------*/
 .slide-title-inner-wrapper{
-	width:100%; 
+	width:100%;
 }
 
 }
 
-@media screen and (max-width: 991px) {	
+@media screen and (max-width: 991px) {
 
 /*===============================================*/
 /* 01. GENERAL			 						 */
@@ -3252,14 +3252,14 @@ button.mfp-close, button.mfp-arrow {
 }
 
 #nav-menu { display: none }
-#nav-menu.sidebar {display:block}	
+#nav-menu.sidebar {display:block}
 #nav-menu.open { display: block; }
 
 #nav-menu,
-.bottom-bar.transparent #nav-menu{	
-	list-style-type:none; 
-	margin:0; 
-	padding:0 !important; 
+.bottom-bar.transparent #nav-menu{
+	list-style-type:none;
+	margin:0;
+	padding:0 !important;
 	position:absolute;
 	left:0;
 	top:100%;
@@ -3273,10 +3273,10 @@ button.mfp-close, button.mfp-arrow {
 
 .transparent #nav-menu{
 	width:80% !important;
-	position:absolute; 
-	margin:auto; 
-	top:100%; 
-	left:0; 
+	position:absolute;
+	margin:auto;
+	top:100%;
+	left:0;
 	right:0;
 }
 
@@ -3291,7 +3291,7 @@ button.mfp-close, button.mfp-arrow {
 #nav-bar.nav-left .logo-wrapper,
 #nav-bar.nav-right .logo-wrapper{
 	position:relative;
-	float:left;	
+	float:left;
 }
 
 #nav-bar.nav-center.hide-logo-on-desktop .logo-wrapper{
@@ -3371,25 +3371,25 @@ button.mfp-close, button.mfp-arrow {
 	border-top:none;
 }
 
-#nav-menu li > ul li a:before{ 
+#nav-menu li > ul li a:before{
 	content: '-';
 	padding-right:10px;
-} 
+}
 
 #nav-menu ul li:first-child a{
 	border-radius:0;
-} 
+}
 
 #nav-menu ul li:last-child a{
 	border-radius:0;
-}   
-  
+}
+
 
 /* 03.2.2 Child-Parent Arrow */
 /* ----------------------------------------------*/
-#nav-menu li > ul li a:after { 
+#nav-menu li > ul li a:after {
 	content: '';
-} 
+}
 
 
 /* 03.2.3 More Child */
@@ -3404,15 +3404,15 @@ button.mfp-close, button.mfp-arrow {
 	padding:0 !important;
 }
 
-#nav-menu ul ul li a:before{ 
+#nav-menu ul ul li a:before{
 	content: '- -';
 	padding-right:10px;
-} 
+}
 
-#nav-menu ul ul ul li a:before{ 
+#nav-menu ul ul ul li a:before{
 	content: '- - -';
 	padding-right:10px;
-} 
+}
 
 #nav-menu ul ul.on-left{
 	left:0;
@@ -3431,12 +3431,12 @@ button.mfp-close, button.mfp-arrow {
 	z-index:1000;
 }
 
-.transparent #mobile-nav{	
+.transparent #mobile-nav{
 	color:#FFF;
 }
 
 .transparent.stick-it #mobile-nav{
-	color:#666;	
+	color:#666;
 }
 
 
@@ -3483,12 +3483,12 @@ button.mfp-close, button.mfp-arrow {
 /*-----------------------------------------------*/
 .box-countdown .countdown-amount {
 	font-size:30px;
-	width:80%;	
+	width:80%;
 	padding-top:38px;
 }
 
 .box-countdown .countdown-period {
-	font-size:16px;  
+	font-size:16px;
 	top:75px;
 	left:0;
 	right:0;
@@ -3522,7 +3522,7 @@ button.mfp-close, button.mfp-arrow {
 
 .story-date{
 	float:none;
-	position:absolute;	
+	position:absolute;
 	top:-45px;
 	left:0;
 	right:0;
@@ -3530,8 +3530,8 @@ button.mfp-close, button.mfp-arrow {
 }
 
 .story-date .month-year{
-	font-family: 'Oswald', sans-serif; 
-	font-size:16px; 
+	font-family: 'Oswald', sans-serif;
+	font-size:16px;
 	color:#FFF;
 }
 
@@ -3550,13 +3550,13 @@ button.mfp-close, button.mfp-arrow {
 }
 
 #last-row-date-wrapper .story-date{
-	position:relative;	
+	position:relative;
 	top:0;
 }
 
 #last-row-date-wrapper{
 	position:relative;
-	padding:0;	
+	padding:0;
 	margin-top:30px;
 }
 
@@ -3567,12 +3567,12 @@ button.mfp-close, button.mfp-arrow {
 
 
 @media screen and (max-width: 991px) and (orientation : landscape) {
-	
+
 /*===============================================*/
 /* 01. GENERAL			 						 */
 /*===============================================*/
 .scale75-onmobile{
-	-ms-transform: scale(0.75, 0.75); 
+	-ms-transform: scale(0.75, 0.75);
 	-webkit-transform: scale(0.75, 0.75);
 	transform: scale(0.75, 0.75);
 }
@@ -3580,10 +3580,10 @@ button.mfp-close, button.mfp-arrow {
 /* ----------------------------------------------*/
 /* 02.2 Logo & Nav Position						 */
 /* ----------------------------------------------*/
-#nav-menu{	
+#nav-menu{
 	height:230px !important;
-}	
-	
+}
+
 /* 06.4.5 Couple Name Title 					 */
 /* ----------------------------------------------*/
 #slide-couplename-wrapper{
@@ -3591,14 +3591,14 @@ button.mfp-close, button.mfp-arrow {
 }
 
 #slide-other-text{
-	font-size:12px; 
-	letter-spacing:4px; 
+	font-size:12px;
+	letter-spacing:4px;
 	margin-top:50px;
 }
 }
 
 
-@media screen and (max-width: 768px) {	
+@media screen and (max-width: 768px) {
 
 /*-----------------------------------------------*/
 /* 07.1.9 Box Countdown							 */
@@ -3610,12 +3610,12 @@ button.mfp-close, button.mfp-arrow {
 
 .box-countdown .countdown-amount {
 	font-size:30px;
-	width:80%;	
+	width:80%;
 	padding-top:34px;
 }
 
 .box-countdown .countdown-period {
-	font-size:16px;  
+	font-size:16px;
 	top:64px;
 	left:0;
 	right:0;
@@ -3632,7 +3632,7 @@ form .btn{
 }
 
 
-@media screen and (max-width: 480px){	
+@media screen and (max-width: 480px){
 
 /*===============================================*/
 /* 01. GENERAL			 						 */
@@ -3648,14 +3648,14 @@ h1#accomodation-title{
 }
 
 .scale75-onmobile{
-	-ms-transform: scale(0.75, 0.75); 
+	-ms-transform: scale(0.75, 0.75);
 	-webkit-transform: scale(0.75, 0.75);
 	transform: scale(0.75, 0.75);
 }
 
 /* 06.4.3 Title Wrapper */
 /* ----------------------------------------------*/
-.slide-title h1, 
+.slide-title h1,
 .slide-title .h1{
 	margin-top:10px;
 	margin-bottom:10px;
@@ -3668,8 +3668,8 @@ h1#accomodation-title{
 }
 
 #slide-other-text{
-	font-size:12px; 
-	letter-spacing:4px; 
+	font-size:12px;
+	letter-spacing:4px;
 	margin-top:50px;
 }
 
@@ -3697,17 +3697,17 @@ h1#accomodation-title{
 
 .box-countdown .countdown-amount {
 	font-size:26px;
-	width:80%;	
+	width:80%;
 	padding-top:20px;
 }
 
 .box-countdown .countdown-period {
-	font-size:14px;  
+	font-size:14px;
 	top:50px;
 	left:0;
 	right:0;
 	margin:auto;
-}	
+}
 
 /*-----------------------------------------------*/
 /* 07.1.10 Circle Countdown						*/
@@ -3724,7 +3724,7 @@ h1#accomodation-title{
 	display:block;
 	text-align:center;
 	font-size:12px;
-	text-transform:uppercase;    
+	text-transform:uppercase;
 }
 
 /*===============================================*/
